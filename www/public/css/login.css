@@ -1,0 +1,53 @@
+#login {
+    height: 100%;
+}
+
+#content{
+    padding-top: 100px;
+}
+
+#copy{
+    height: 40px;
+    margin-top: -40px;
+}
+
+
+
+/* Sign In */
+
+.form-sign-in {
+    width: 500px;
+    margin: 0 auto;
+    padding: 2rem .5rem;
+}
+
+.form-row {
+    padding: .5rem;
+}
+
+.info {
+    color: darkred;
+}
+
+.notice {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin-top: -100px;
+}
+
+@keyframes shake {
+    0% { margin-top: 0; transform: rotate(0deg); }
+    40% { margin-top: -.9em; transform: rotate(5deg); }
+    60% { margin-top: -.9em; transform: rotate(-5deg); }
+    100% { margin-top: 0; transform: rotate(0deg); }
+}
+.anim-shake {
+    animation-duration: .9s;
+    animation-name: shake;
+}
+
+/* Register */
+
+
+

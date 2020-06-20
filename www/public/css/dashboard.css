@@ -1,0 +1,81 @@
+
+/* Dashboard */
+#dashboard,
+#dashboard > div
+{
+    height: 100%;
+}
+
+/* Sidebar */
+#sidebar {
+    background-color: #393f4f;
+    color: #5b6378;
+}
+
+
+#sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar ul a {
+    display: inline-block;
+    width: 100%;
+    color: #5b6378;
+    padding: 0.5rem 1.6rem;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+#sidebar ul a:hover {
+    background-color: #2a303e;
+    color: #aab1c1;
+    text-decoration: none;
+}
+
+#sidebar {
+    width: 25%;
+}
+
+.logo {
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #f0f1f3;
+}
+.logo span {
+    color: #2ecc40;
+}
+
+/* Top Navigation */
+.top-navigation {
+    padding: 0 1rem;
+    height: 60px;
+    background-color: #4e5d7e;
+    color: #f0f1f3;
+}
+
+.top-navigation a {
+    color: #f0f1f3;
+}
+
+.top-navigation a.ico {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #2a303e;
+    font-weight: bold;
+    text-align: center;
+}
+.top-navigation a.user {
+    height: 24px;
+    display: inline-block;
+    padding: 0 10px;
+    border-radius: 12px;
+    background-color: #2a303e;
+    font-weight: bold;
+    text-align: center;
+}
